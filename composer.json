@@ -1,0 +1,31 @@
+{
+    "name": "tuanictu97/apitube",
+    "description": "YouTube API",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "Laravel", "YouTube", "scrape", "crawl"
+    ],
+    "authors": [
+        {
+            "name": "Hà Anh Tuấn",
+            "email": "tuanictu97@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/dom-crawler": "^5.1",
+        "ext-json": "*",
+        "php": "^8.0.2",
+        "illuminate/support": "9.*",
+        "guzzlehttp/guzzle": "6.* || 7.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.3",
+        "phpunit/phpunit": "^9.2"
+    }
+}
